@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CustomizeMsg"
+    android:background="#f2bf78"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    >
+
+
+    <EditText
+
+        android:id="@+id/emgrMsg"
+        android:text="@string/emgrCustomTxt"
+        android:layout_above="@+id/emgrMsg2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:padding="5dip"
+        android:background="@drawable/edittext_border"
+        android:textColor="#000"
+        android:textSize="16sp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/emgrMsg2"
+        android:text="@string/emgrCustomTxt2"
+        android:layout_above="@+id/emgrMsg3"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:padding="5dip"
+        android:background="@drawable/edittext_border"
+        android:textColor="#000"
+        android:textSize="16sp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/emgrMsg3"
+        android:text="@string/emgrCustomTxt3"
+        android:layout_centerVertical="true"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+
+        android:padding="5dip"
+        android:background="@drawable/edittext_border"
+        android:textColor="#000"
+        android:textSize="16sp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/emgrMsg4"
+        android:text="@string/emgrCustomTxt4"
+        android:layout_below="@+id/emgrMsg3"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:padding="5dip"
+        android:background="@drawable/edittext_border"
+        android:textColor="#000"
+        android:textSize="16sp"
+
+        />
+
+    <EditText
+
+        android:id="@+id/emgrMsg5"
+        android:text="@string/emgrCustomTxt5"
+        android:layout_below="@+id/emgrMsg4"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:padding="5dip"
+        android:background="@drawable/edittext_border"
+        android:textColor="#000"
+        android:textSize="16sp"
+
+        />
+    <ImageButton
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:id="@+id/emgr1"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:src="@drawable/buttonemerg"
+        android:layout_alignBottom="@+id/emgrMsg"
+        android:layout_toEndOf="@+id/emgrMsg"
+        android:layout_marginStart="10dp"
+
+        />
+
+    <ImageButton
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:id="@+id/emgr2"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:src="@drawable/buttonemerg"
+        android:layout_alignBottom="@+id/emgrMsg2"
+        android:layout_toEndOf="@+id/emgrMsg2"
+        android:layout_marginStart="10dp"
+
+        />
+
+    <ImageButton
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:id="@+id/emgr3"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:src="@drawable/buttonemerg"
+        android:layout_alignBottom="@+id/emgrMsg3"
+        android:layout_toEndOf="@+id/emgrMsg3"
+        android:layout_marginStart="10dp"
+
+        />
+
+    <ImageButton
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:id="@+id/emgr4"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:src="@drawable/buttonemerg"
+        android:layout_alignBottom="@+id/emgrMsg4"
+        android:layout_toEndOf="@+id/emgrMsg4"
+        android:layout_marginStart="10dp"
+
+        />
+
+    <ImageButton
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:id="@+id/emgr5"
+        android:scaleType="fitXY"
+        android:background="#00000000"
+        android:src="@drawable/buttonemerg"
+        android:layout_alignBottom="@+id/emgrMsg5"
+        android:layout_toEndOf="@+id/emgrMsg5"
+        android:layout_marginStart="10dp"
+
+        />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+    <!--
+       <EditText
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/nonEmgrMsg"
+           android:text="@string/nonEmgrCustomTxt"
+           android:layout_below="@+id/copyMsgButton"
+           android:layout_alignParentTop="@+id/emgrMsgLabel"
+           />
+
+       <Button
+
+           android:layout_width="wrap_content"
+           android:layout_height="25dp"
+           android:background="@android:drawable/editbox_background"
+           android:text="@string/copyMsgButton"
+           android:id="@+id/copyMsgButton"
+           android:textAllCaps="false"
+           android:layout_below="@+id/nonEmgrMsgLabel"
+           android:layout_toEndOf="@+id/defaultMsg2Button"
+           />
+
+       <Button
+
+           android:layout_width="wrap_content"
+           android:layout_height="25dp"
+           android:background="@android:drawable/editbox_background"
+           android:text="@string/DefaultMsgButton"
+           android:id="@+id/defaultMsg2Button"
+           android:textAllCaps="false"
+           android:layout_above="@+id/nonEmgrMsg"
+           android:layout_below="@+id/nonEmgrMsgLabel"
+
+           />
+
+       <Button
+
+           android:layout_width="wrap_content"
+           android:layout_height="25dp"
+           android:background="@android:drawable/editbox_background"
+           android:text="@string/DefaultMsgButton"
+           android:id="@+id/defaultMsgButton"
+           android:textAllCaps="false"
+           android:layout_below="@+id/emgrMsgLabel"
+
+           />
+
+
+      <Button
+
+          android:layout_width="wrap_content"
+          android:layout_height="25dp"
+          android:background="@android:drawable/editbox_background"
+          android:text="SAVE"
+          android:id="@+id/saveNonMsgButton"
+          android:textAllCaps="false"
+          android:layout_below="@+id/nonEmgrMsg"
+
+          />
+
+      <Button
+
+          android:layout_width="wrap_content"
+          android:layout_height="25dp"
+          android:background="@android:drawable/editbox_background"
+          android:text="SAVE"
+          android:id="@+id/saveMsgButton"
+          android:textAllCaps="false"
+          android:layout_below="@+id/emgrMsg"
+
+          />
+
+   -->
+

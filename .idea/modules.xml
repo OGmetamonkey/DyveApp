@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DyveApp.iml" filepath="$PROJECT_DIR$/.idea/modules/DyveApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DyveApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DyveApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DyveApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DyveApp.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DyveApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DyveApp.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DyveApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DyveApp.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/DyveApp.lib.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/DyveApp.lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/DyveApp.lib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/DyveApp.lib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/DyveApp.lib.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/DyveApp.lib.test.iml" />
+    </modules>
+  </component>
+</project>
